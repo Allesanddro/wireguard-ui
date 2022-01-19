@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+chmod +x prepare_assets.sh
 echo "Starting build."
-sleep 3
+sleep 1
 echo "This might fail if you didn't install the dependencies."
-sleep 3
+sleep 1
 git pull
 systemctl stop wgui-web.service
 ./prepare_assets.sh
