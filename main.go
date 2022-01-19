@@ -36,7 +36,7 @@ const (
 	defaultEmailContent = `Hi,</br>
 <p>In this email you can find your personal configuration for our wireguard server.</p>
 
-<p>Best</p>
+<p>Kind regards ur Administrator</p>
 `
 )
 
