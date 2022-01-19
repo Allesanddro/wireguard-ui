@@ -171,6 +171,7 @@ func GetPublicIP() (model.Interface, error) {
 	consensus.AddVoter(externalip.NewHTTPSource("http://checkip.amazonaws.com/"), 1)
 	consensus.AddVoter(externalip.NewHTTPSource("http://whatismyip.akamai.com"), 1)
 	consensus.AddVoter(externalip.NewHTTPSource("http://ifconfig.top"), 1)
+	consensus.AddVoter(externalip.NewHTTPSource("https://ipinfo.io/ip"), 1)
 
 	publicInterface := model.Interface{}
 	publicInterface.Name = "Public Address"
