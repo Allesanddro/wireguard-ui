@@ -1,0 +1,13 @@
+{
+  "name": "wireguard-ui",
+  "version": "1.0.0",
+  "description": "Wireguard web interface",
+  "main": "index.js",
+  "repository": "git@github.com:Allesanddro/wireguard-ui.git",
+  "author": "Alesandro Schäfer <sandro.schaefer549@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "admin-lte": "^3.0",
+    "jquery-tags-input": "^1.3.5"
+  }
+}
