@@ -18,8 +18,8 @@ import (
 
 var (
 	// command-line banner information
-	appVersion = "development"
-	gitCommit  = "N/A"
+	appVersion = "1.0"
+	gitCommit  = "https://github.com/Allesanddro/wireguard-ui/commit/9bf16b47fdf40eaddb7fa53c09f7b851b6025f7e"
 	gitRef     = "N/A"
 	buildTime  = fmt.Sprintf(time.Now().UTC().Format("01-02-2006 15:04:05"))
 	// configuration variables
