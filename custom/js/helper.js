@@ -34,18 +34,18 @@ function renderClientList(data) {
                                         data-target="#modal_email_client" data-clientid="${obj.Client.id}"
                                         data-clientname="${obj.Client.name}">Email</button>
                                 </div>
-                                <div class="btn-group">        
+                                <div class="btn-group">
                                     <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal"
                                         data-target="#modal_edit_client" data-clientid="${obj.Client.id}"
                                         data-clientname="${obj.Client.name}">Edit</button>
                                 </div>
-                                <div class="btn-group">        
+                                <div class="btn-group">
                                     <button type="button" class="btn btn-outline-warning btn-sm" data-toggle="modal"
                                         data-target="#modal_pause_client" data-clientid="${obj.Client.id}"
                                         data-clientname="${obj.Client.name}">Disable</button>
-                                        
+
                                 </div>
-                                <div class="btn-group">        
+                                <div class="btn-group">
                                     <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal"
                                         data-target="#modal_remove_client" data-clientid="${obj.Client.id}"
                                         data-clientname="${obj.Client.name}">Remove</button>
