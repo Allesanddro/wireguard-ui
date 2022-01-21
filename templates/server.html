@@ -142,7 +142,7 @@ Wireguard Server Settings
                 data: JSON.stringify(data),
                 success: function(data) {
                     $("#modal_new_client").modal('hide');
-                    toastr.success('Updated Wireguard server interface addresses successfully');
+                    toastr.success('Updated Wireguard server interface addresses successfully.');
                 },
                 error: function(jqXHR, exception) {
                     const responseJson = jQuery.parseJSON(jqXHR.responseText);
