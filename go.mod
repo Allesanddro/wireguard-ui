@@ -13,7 +13,7 @@ require (
 	github.com/labstack/gommon v0.3.0
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/rs/xid v1.2.1
-	github.com/sdomino/scribble v0.0.0-20191024200645-4116320640ba
+	github.com/sdomino/scribble v0.0.0-20200707180004-3cc68461d505
 	github.com/sendgrid/rest v2.6.4+incompatible // indirect
 	github.com/sendgrid/sendgrid-go v3.10.0+incompatible
 	github.com/skip2/go-qrcode v0.0.0-20191027152451-9434209cb086
